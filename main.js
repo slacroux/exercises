@@ -12,7 +12,7 @@ Vue.component('cnpjform', {
       </p>
         
       <p>
-        <input id="btn" type="submit" @click="onValidate" value="Test CNPJ">
+        <input id="btn" type="submit" @click="onValidate" value="Validate">
       </p>      
 
     </form> `
