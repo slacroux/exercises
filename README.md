@@ -1,6 +1,20 @@
-# exercises
+CNPJ EXERCISES
+
+The Current algorithms present:
+- Validation from CNPJ Format: "00.000.000/0001-00" and "00000000000100". (Exercise 1)
+- Validation from CNPJ numbers through the last two digits, the verifying numbers, checking if the input is a valid CNPJ according to Receita Federal. (Exercise 2)
+
+The language used: HTML, CSS and JS.
+The framework used was VUE.js
+
+The page can be accessed through the link below:
+https://slacroux.github.io/exercises/index.html
+
+How to Use it?
+- Insert CNPJ on the field;
+- Press button Test CNPJ;
+- Check the messages;
 
 
-Exercício 1: A primeira verificação realizada checa os formatos do campo e determina se este é valido ou não.
-
-Exercício 2: O CNPJ é validado independente da checagem de formato. Portanto, o formato pode não conferir com nenhum dos modelos usuais e o CNPJ pode ser considerado válido. Foi utilizado o algoritmo especificado pela a Receita Federal.
+Author
+Stefany Lacroux @stelacroux
