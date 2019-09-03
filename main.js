@@ -41,7 +41,6 @@ Vue.component('cnpjform', {
         let rgxCnpj = /[0-9]{2}\.[0-9]{3}\.[0-9]{3}\/[0-9]{4}\-[0-9]{2}/g
         let rgxCnpjOnlyNum = /[0-9]{14}/g
         
-        // this.resetField()
         // Match the expected expression with dots
         if (this.cnpjNumber.length === 18 && rgxCnpj.test(this.cnpjNumber)) {
           this.messages.push("CNPJ MASK: VALID")
@@ -58,7 +57,6 @@ Vue.component('cnpjform', {
           this.validCNPJToRF(this.cleanInputCnpj(this.cnpjNumber))
         }
       } else {
-        // this.resetField()
         this.messages.push("Please, fill the CNPJ input.")
       }
 
