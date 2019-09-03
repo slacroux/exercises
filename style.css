@@ -1,0 +1,34 @@
+body {
+  font-family: tahoma;
+  color:#282828;
+  background-color: aliceblue;
+  margin: 15px;
+}
+
+/* CNPJ Box */
+.cnpj-validation {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+/* Input Area */
+input {
+  width: 100%;  
+  height: 25px;
+  margin-bottom: 18px;
+}
+
+/* Buttons */
+input#btn {
+  background-color:rgb(206, 217, 240);
+  border: rgb(70, 44, 10);
+  font-family: tahoma;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
