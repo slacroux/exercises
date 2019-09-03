@@ -12,7 +12,7 @@ https://slacroux.github.io/exercises/index.html
 
 How to Use it?
 - Insert CNPJ on the field;
-- Press button Test CNPJ;
+- Press button "Validate";
 - Check the messages;
 
 
