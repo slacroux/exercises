@@ -8,7 +8,7 @@ Vue.component('cnpjform', {
       </p>
 
       <p v-if="messages.length">
-        <li v-for="message in messages">{{ message }}</li>
+        <li id="messages" v-for="message in messages">{{ message }}</li>
       </p>
         
       <p>
@@ -44,7 +44,7 @@ Vue.component('cnpjform', {
         // this.resetField()
         // Match the expected expression with dots
         if (this.cnpjNumber.length === 18 && rgxCnpj.test(this.cnpjNumber)) {
-          this.messages.push("CNPJ Receita Federal : VALID")
+          this.messages.push("CNPJ MASK: VALID")
 
           // Calls a function that cleans the CNPJ to only numbers
           this.validCNPJToRF(this.cleanInputCnpj(this.cnpjNumber))  

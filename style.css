@@ -32,3 +32,7 @@ input#btn {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+#messages {
+  font-family: monospace;
+}
